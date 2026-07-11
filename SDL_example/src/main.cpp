@@ -57,6 +57,8 @@ int main(int argc,char* argv[])
         //render
 
         SDL_RenderPresent(render);
+
+        SDL_Delay((float)1000/FPS);
     }
     
     SDL_DestroyRenderer(render);
