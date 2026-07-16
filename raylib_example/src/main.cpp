@@ -14,6 +14,7 @@ int main(int argc,char* argv[])
     //handle event
     //update
     BeginDrawing();
+    ClearBackground(Color{0x00,0x00,0x00,0x00});
 
     //render
 
