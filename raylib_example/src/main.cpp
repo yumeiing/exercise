@@ -6,21 +6,21 @@
 
 int main(int argc,char* argv[])
 {
-  InitWindow(WIDTH,HEIGHT,"raylib-window");
-  SetTargetFPS(FPS);
+    InitWindow(WIDTH,HEIGHT,"raylib-window");
+    SetTargetFPS(FPS);
 
-  while(!WindowShouldClose())
-  {
-    //handle event
-    //update
-    BeginDrawing();
-    ClearBackground(Color{0x00,0x00,0x00,0x00});
+    while(!WindowShouldClose())
+    {
+        //handle event
+        //update
+        BeginDrawing();
+        ClearBackground(Color{0x00,0x00,0x00,0x00});
 
-    //render
+        //render
 
-    EndDrawing();
-  }
+        EndDrawing();
+    }
 
-  CloseWindow();
-  return 0;
+    CloseWindow();
+    return 0;
 }
