@@ -5,5 +5,6 @@
 |:---|:--|:--|:-|
 |[SDL_example](./SDL_example)|c++|SDL2的模板|SDL2|
 |[raylib_example](./raylib_example)|c++|raylib模板|raylib|
+|[openURL](./openURL)|c++|啥也不是|raylib|
 ## 构建方式
-皆使用CMake。可使用文件中自带的CMakeLists.txt，会生成一个bin/和build/目录。
+皆使用CMake。可使用文件中自带的CMakeLists.txt。
