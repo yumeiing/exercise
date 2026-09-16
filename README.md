@@ -6,9 +6,10 @@
 |[SDL_example](./SDL_example)|c++|SDL2的模板|SDL2|
 |[raylib_example](./raylib_example)|c++|raylib模板|raylib|
 |[openURL](./openURL)|c++|啥也不是|raylib|
-|[thread](./thread)|c++|c++线程练习,其中使用了std::cout,可能导致输出混乱|c++标准库|
+|[thread](./thread)|c++|c++线程练习,其中使用了std::cout,可能导致输出混乱|None|
 |[qml_rect](./qml_rect)|qml|qml学习|QT6|
-|[recursion_hanoi](./recursion_hanoi)|c|c语言递归学习:汉诺塔|c标准库|
+|[recursion_hanoi](./recursion_hanoi)|c|c语言递归学习:汉诺塔|None|
+|[my_shell](./my_shell)|c|简单的shell|POSIX库|
 ## 构建方式
 皆使用CMake。可使用文件中自带的CMakeLists.txt。
 部分例外。
