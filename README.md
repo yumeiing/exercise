@@ -10,6 +10,7 @@
 |[qml_rect](./qml_rect)|qml|qml学习|QT6|
 |[recursion_hanoi](./recursion_hanoi)|c|c语言递归学习:汉诺塔|None|
 |[my_shell](./my_shell)|c|简单的shell|POSIX库|
+|[c_stack](./c_stack)|c|简单的栈实现|None|
 ## 构建方式
 皆使用CMake。可使用文件中自带的CMakeLists.txt。
 部分例外。
