@@ -13,6 +13,6 @@
 |[my_shell](./my_shell)|c|简单的shell|POSIX库|
 |[c_stack](./c_stack)|c|简单的栈实现|None|
 ## 构建方式
-使用`CMake`或`xmake`。
-可使用文件中自带的`CMakeLists.txt`或`xmake.lua`。
+使用`CMake`或`xmake`。  
+可使用文件中自带的`CMakeLists.txt`或`xmake.lua`。  
 部分例外。
