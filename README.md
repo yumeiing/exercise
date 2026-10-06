@@ -13,6 +13,7 @@
 |[recursion_hanoi](./recursion_hanoi)|c|c语言递归学习:汉诺塔|None|
 |[my_shell](./my_shell)|c|简单的shell|POSIX库|
 |[c_stack](./c_stack)|c|简单的栈实现|None|
+|[guess_word](./guess_word)|c|简单猜词游戏|None|
 ## 构建方式
 使用`CMake`或`xmake`。  
 可使用文件中自带的`CMakeLists.txt`或`xmake.lua`。  
