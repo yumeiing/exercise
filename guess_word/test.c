@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include <string.h>
 
+#define HELP 'y'
 #define CI 7
 #define YES_SYMBOL ' '
 #define NO_SYMBOL 'X'
@@ -64,6 +65,7 @@ void setAn(){
 	}
 }
 
+#if HELP=='y'
 void help(){
 	printf("Rules:\n" \
 			"You can input %d word.The promma will print a %d chars result.\n" \
@@ -75,6 +77,9 @@ void help(){
 			"If ci become 0,than you lost.\n", \
 			CH_LEN,CH_LEN,CI,YES_SYMBOL,LIKE_SYMBOL,NO_SYMBOL);
 }
+#else
+void help(){}
+#endif
 
 char comCh(char com,int index){
 	char a=ans[index];
