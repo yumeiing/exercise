@@ -18,8 +18,8 @@
 
 char ans[CH_LEN+1];
 
-void setAn();
-void help();
+void setAn(void);
+void help(void);
 char comCh(const char,const int);
 int handleGuess(char[], char[]);
 
@@ -55,7 +55,7 @@ int main(int argc,char *argv[]) {
 	return 0;
 }
 
-void setAn(){
+void setAn(void){
 	srand(time(NULL));
 	int n=rand()%WORD_NUM;
 	FILE *infile=fopen(WORD_FILE,"r");
@@ -66,7 +66,7 @@ void setAn(){
 }
 
 #if HELP=='y'
-void help(){
+void help(void){
 	printf("Rules:\n" \
 			"You can input %d word.The promma will print a %d chars result.\n" \
 			"Redo %d ci.A result has one of chars in there:\n" \
@@ -78,7 +78,7 @@ void help(){
 			CH_LEN,CH_LEN,CI,YES_SYMBOL,LIKE_SYMBOL,NO_SYMBOL);
 }
 #else
-void help(){}
+void help(void){return ;}
 #endif
 
 char comCh(char com,int index){
