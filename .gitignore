@@ -1,4 +1,8 @@
+.xmake/
 build/
+
+.DS_Store
+
 bin/
 a.out
 compile_commands.json
