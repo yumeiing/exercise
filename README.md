@@ -9,6 +9,7 @@
 |[thread](./thread)|c++|c++线程练习,其中使用了std::cout,可能导致输出混乱|None|
 |[autoLog](./autoLog)|c++|简单的函数日志|None|
 |[forward](./forward)|c++|c++完美转发练习|None|
+|[CRTP](./CRTP)|c++|奇异递归模板简单实例|None|
 |[qml_rect](./qml_rect)|qml|qml学习|QT6|
 |[recursion_hanoi](./recursion_hanoi)|c|c语言递归学习:汉诺塔|None|
 |[my_shell](./my_shell)|c|简单的shell|POSIX库|
