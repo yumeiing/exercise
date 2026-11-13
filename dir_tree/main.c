@@ -3,7 +3,10 @@
 #include <dirent.h>
 
 void print_file(const char *fileName, int fileType, int indent){
-	printf("%*c", indent * 2, ' ');
+	printf("|-");
+	while(--indent) printf("--");
+//	--indent;
+//	printf("%*c", indent * 2, '-');
 	switch(fileType){
 	case DT_DIR:
 		printf("\e[0;34m%s/\e[0m\n", fileName);
@@ -39,7 +42,7 @@ int walk(const char *path,int indent){
 			size_t len = strlen(path) + strlen(fn) + 2;
 			char sub_path[len];
 			snprintf(sub_path, len, "%s/%s", path,fn);
-			walk(sub_path, indent+ 1);
+			walk(sub_path, indent + 1);
 		}
 	}
 
@@ -55,7 +58,7 @@ int main(int argc, char **argv){
 	}
 
 	printf("%s\n",path);
-	int err = walk(path, 2);
+	int err = walk(path, 1);
 	return err;
 }
 
